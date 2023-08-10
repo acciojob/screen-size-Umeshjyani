@@ -1,9 +1,9 @@
 //your JS code here. If required.
-let x = document.getElementById("sizeInfo");
+let a = document.getElementById("sizeInfo");
 function showhw() {
-	let w = window.innerWidth;
-	let h = window.innerHeight;
-	x.innerHTML = "Width: " + w + " and Height: " + h;
+	let x = window.innerWidth;
+	let y = window.innerHeight;
+	a.innerHTML = "Width: " + x + " and Height: " + y;
 }
 showhw();
 window.addEventListener('resize', showhw);

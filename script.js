@@ -1,5 +1,5 @@
 //your JS code here. If required.
-let x = document.getElementById("show");
+let x = document.getElementById("sizeInfo");
 function showhw() {
 	let w = window.innerWidth;
 	let h = window.innerHeight;
